@@ -152,6 +152,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CADExchTE.cpp" />
+    <ClCompile Include="CurvesCM.cpp" />
+    <ClCompile Include="CurvesCM_Circle.cpp" />
+    <ClCompile Include="CurvesCM_Ellipse.cpp" />
+    <ClCompile Include="CurvesCM_Helix.cpp" />
+    <ClCompile Include="CurvesCM_Shape.cpp" />
+    <ClCompile Include="CurvesCM_ShapeGenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CurvesCM.h" />
+    <ClInclude Include="CurvesCM_Circle.h" />
+    <ClInclude Include="CurvesCM_Ellipse.h" />
+    <ClInclude Include="CurvesCM_Helix.h" />
+    <ClInclude Include="CurvesCM_Shape.h" />
+    <ClInclude Include="CurvesCM_ShapeGenerator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
